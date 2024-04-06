@@ -1,8 +1,9 @@
-import React from "react"
-import StackNavigator from "./stackNavigator"
-import Profile from "../screens/profile"
-import Logout from "../screens/logout"
-import {createDrawerNavigator} from "@react-navigation/drawer"
+import React from "react";
+import { createDrawerNavigator } from "@react-navigation/drawer";
+import StackNavigator from "./StackNavigator";
+import Profile from "../screens/Profile";
+import Logout from "../screens/Logout"
+
 import {NavigationContainer} from "@react-navigation/native"
 import CustomSideBarMenu from "../screens/customSideBarMenu"
 import firebase from "firebase"
